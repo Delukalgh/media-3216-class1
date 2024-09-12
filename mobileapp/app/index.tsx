@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import Button from "@/components/atoms/button";
-import Label from "@/components/atoms/Label";
+
 import InputForm from "@/components/molecules/inputForm";
 
 export default function Index() {
@@ -13,13 +13,15 @@ export default function Index() {
       }}
     >
       <InputForm 
-        textForLabel="Me label"
+        textForMessage="Me label"
         textForButton="Me button"
         textForPlaceholder="me placeholder"
       />
-      <Button buttonText="Hey :)" />
-      <Label labelText="YIPEEE!!!!" />
-
+      {/* <Button buttonText="Hey :)" /> */}
+      {/* <Post 
+        name="something"
+        imgurl=
+        messageText= */}
     </View>
   );
 }

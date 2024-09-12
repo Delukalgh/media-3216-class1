@@ -1,10 +1,10 @@
 import { Text, View } from "react-native"
 
-export default function Nametext({ messageText }) {
+export default function Message({ messagepost }) {
     return (
         <View>
             <Text style={{color:"purple", fontWeight: 1000, fontSize: 50}}>
-                {messageText}
+                {messagepost}
             </Text>
         </View>
     )
